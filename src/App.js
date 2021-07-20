@@ -1,8 +1,11 @@
-import React from "react";
-import sectionHeader from "./components/sectionHeader";
+import SectionHeader from "./components/sectionHeader";
 
 function App() {
-  return <sectionHeader />;
+  return (
+    <div>
+      <SectionHeader />
+    </div>
+  );
 }
 
 export default App;
