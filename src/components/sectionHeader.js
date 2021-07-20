@@ -13,7 +13,7 @@ function SectionHeader() {
                 </nav>
             </div>
             <div class="header-img-msg mt-2">
-                <img id="personal-img" src="./assets/images/personal.png" />
+                <img id="personal-img" src="images/personal.png" />
                 <div id="greeting-msg">
                     <h1 >Welcome to My Page!</h1>
                 </div>

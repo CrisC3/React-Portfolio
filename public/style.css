@@ -37,7 +37,7 @@ main {
 }
 
 .header-img-msg {
-    background-image: url("../images/blue_lines_abstract_material_design.jpg");
+    background-image: url("images/blue_lines_abstract_material_design.jpg");
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
