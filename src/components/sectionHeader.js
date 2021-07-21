@@ -1,5 +1,6 @@
 import React from "react";
 import SectionMain from "./sectionMain";
+import SectionNavbar from "./sectionNavbar";
 
 function SectionHeader() {
 
@@ -8,6 +9,7 @@ function SectionHeader() {
             <header>
                 <div class="header-main d-flex flex-column flex-md-row text-center">
                     <h1>Cristobal Canales</h1>
+                    <SectionNavbar />
                 </div>
                 <div class="header-img-msg mt-2">
                     <img id="personal-img" src="images/personal.png" alt="Profile picture" />
