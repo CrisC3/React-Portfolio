@@ -3,27 +3,28 @@ import React from "react";
 function SectionNavbar() {
 
     const styles = {
-        color: "rgb(146, 204, 205)",
+        color: "black",
         textDecoration: "none",
         margin: "auto 0.2rem",
         fontWeight: "bold",
-        borderStyle: "solid",
-        borderColor: "rgb(146, 204, 205)"
+        borderTopStyle: "solid",
+        borderRightStyle: "solid",
+        borderLeftStyle: "solid",
+        borderColor: "white",
+        padding: "0.15rem",
+        backgroundColor: "white"
       };
 
     return (
-        // <nav class="m-0 d-flex flex-column flex-md-row">
-        //     <a href="#about-me">About Me</a>
-        //     <a href="#work">Work</a>
-        //     <a href="#contact-me">Contact Me</a>
-        //     {/* <a href="#resume">Resume</a> */}
-        // </nav>
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                <a href="#about-me">About Me</a>
+                <a href="/" style={styles}>Home</a>
             </li>
             <li className="nav-item">
-                <a href="#work">Work</a>
+                <a href="#work" style={styles}>Work</a>
+            </li>
+            <li className="nav-item">
+                <a href="#contact-me" style={styles}>Contact Me</a>
             </li>
         </ul>
     );
