@@ -31,7 +31,8 @@ function SectionHeader() {
                     <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />
                 </div>
                 <div class="header-img-msg">
-                    <img id="personal-img" src="images/personal.png" alt="Profile" />
+                  {console.log(window.location)}
+                    <img id="personal-img" src={process.env.PUBLIC_URL + "/images/personal.png"} alt="Profile" />
                     <div id="greeting-msg">
                         <h1>Welcome to My Page!</h1>
                     </div>
