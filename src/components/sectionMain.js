@@ -4,27 +4,25 @@ import Home from "./pages/home"
 import Work from "./pages/work"
 
 function SectionMain() {
-    
-    const [currentPage, setCurrentPage] = useState("Home");
-    
-    const renderPage = () => {
-        if (currentPage === "Home") {
-          return <Home currentPage={currentPage} handlePageChange={handlePageChange} />;
-        }
-        if (currentPage === "Work") {
-          return <Work currentPage={currentPage} handlePageChange={handlePageChange} />;
-        }
-        if (currentPage === "ContactMe") {
-        //   return <ContactMe currentPage={currentPage} handlePageChange={handlePageChange} />;
-        }
-      };
-
-    const handlePageChange = (page) => setCurrentPage(page);
-
-    return (
-        // <div>{ renderPage() }</div>
-        <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />
-    );
+  
+  const [currentPage, setCurrentPage] = useState("Home");
+  
+  const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    }
+    if (currentPage === "Work") {
+      return <Work />;
+    }
+    // if (currentPage === "ContactMe") {
+    //     return <ContactMe />;
+    // }
+  };
+      
+  const handlePageChange = (page) => setCurrentPage(page);
+  console.log(currentPage);
+  
+  return <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />;
 }
 
 export default SectionMain;
