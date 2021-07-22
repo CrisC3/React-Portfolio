@@ -9,10 +9,10 @@ export default function Work() {
     return (
         <div class="container">
             <div class="row">
-                <div class="title col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                {/* <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2"> */}
                     <h1>Work</h1>
-                </div>
-                <div class="d-flex flex-wrap col-7 col-sm-8 col-md-9 col-lg-9 col-xl-9">
+                {/* </div> */}
+                <div class="d-flex flex-wrap col">
                     <div class="row row-works">
                         <a class="projects project-01 col-work d-flex align-items-end" href="https://the64man1.github.io/Gooberville-Foods/" target="_blank">
                             <div>
