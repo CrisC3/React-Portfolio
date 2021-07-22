@@ -3,6 +3,7 @@ import SectionMain from "./sectionMain";
 import SectionNavbar from "./sectionNavbar";
 import Home from "./pages/home"
 import Work from "./pages/work"
+import ContactMe from "./pages/contact";
 
 function SectionHeader() {
   
@@ -15,9 +16,9 @@ function SectionHeader() {
     if (currentPage === "Work") {
       return <Work />;
     }
-    // if (currentPage === "ContactMe") {
-    //     return <ContactMe />;
-    // }
+    if (currentPage === "ContactMe") {
+        return <ContactMe />;
+    }
   };
       
   const handlePageChange = (page) => setCurrentPage(page);
