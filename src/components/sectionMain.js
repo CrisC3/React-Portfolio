@@ -22,7 +22,12 @@ function SectionMain() {
   const handlePageChange = (page) => setCurrentPage(page);
   console.log(currentPage);
   
-  return <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />;
+  return (
+    <div>
+      <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
 }
 
 export default SectionMain;

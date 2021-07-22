@@ -19,13 +19,13 @@ function SectionNavbar({ currentPage, handlePageChange }) {
         <div class="container">
             <ul className="nav nav-tabs align-self-md-end">
                 <li className="nav-item">
-                    <a href="#home" onClick={() => handlePageChange("Home")} style={styles} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
+                    <a href="#home" onClick={() => handlePageChange("Home")} style={styles} className={currentPage === "Home" ? "nav-link active" : "nav-link"}>Home</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#work" onClick={() => handlePageChange("Work")} style={styles}>Work</a>
+                    <a href="#work" onClick={() => handlePageChange("Work")} style={styles} className={currentPage === "Home" ? "nav-link active" : "nav-link"}>Work</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#contact-me" onClick={() => handlePageChange("ContactMe")} style={styles}>Contact Me</a>
+                    <a href="#contact-me" onClick={() => handlePageChange("ContactMe")} style={styles} className={currentPage === "Home" ? "nav-link active" : "nav-link"}>Contact Me</a>
                 </li>
             </ul>
         </div>
