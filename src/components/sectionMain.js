@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Home from "./pages/home"
+import SectionNavbar from "./sectionNavbar";
 
 function SectionMain() {
     
@@ -6,7 +8,7 @@ function SectionMain() {
     
     const renderPage = () => {
         if (currentPage === "Home") {
-        //   return <Home />;
+          return <Home currentPage={currentPage} handlePageChange={handlePageChange} />;
         }
         if (currentPage === "Work") {
         //   return <Work />;
@@ -19,7 +21,7 @@ function SectionMain() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <h1>Section Main</h1>
+        <div>{ renderPage() }</div>
     );
 }
 
