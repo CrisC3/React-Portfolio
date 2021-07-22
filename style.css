@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(237, 237, 246);
+    padding-bottom: 2rem;
+}
+
+header {
+    background-color: #13293d;
+}
+
+main {
+    margin: 10px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-main > h1 {
+    background-color: rgb(146, 204, 205);
+    border-radius: 10px 15px 5px 12px;
+    margin: 10px 25px;
+}
+
+.header-main > nav {
+    margin-right: 25px;
+}
+
+.header-main > nav > a {
+    color: rgb(146, 204, 205);
+    text-decoration: none;
+    margin: auto 0.2rem;
+    border-bottom: 3px solid rgb(146, 204, 205);
+    font-weight: bold;
+}
+
+.header-img-msg {
+    background-image: url("images/blue_lines_abstract_material_design.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 310px;
+    width: 100%;
+}
+
+#personal-img {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #f0270d;
+    border-radius: 150px;
+    margin: 20px 50px;
+}
+
+#greeting-msg {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+#greeting-msg h1 {
+    background-color: rgb(146, 204, 205);
+    color: rgb(50, 53, 62);
+    margin: auto 25px;
+    padding: 10px;
+}
+
+.title {
+    margin: 0px;
+    border-right: 3px solid rgb(68, 88, 118);
+    padding: 0px 10px 0px 0px;
+}
+
+.title > h1 {
+    font-size: 200%;
+    text-align: right;
+    color: rgb(68, 88, 118);
+    margin: 0px;
+}
+
+.projects {
+    width: 100% !important;
+    min-height: 400px !important;
+}
+
+.project-01 {
+    background-image: url("images/Gooberville.png");
+}
+
+.project-02 {
+    background-image: url("images/Galleria.jpg");
+}
+
+.col-works {
+    width: 100%;
+}
+
+.col-work {
+    border: 5px solid #1b446bf5;
+    background-size:cover;
+    text-decoration: none;
+    min-height: 150px;
+    max-height: 150px;
+    color: rgba(49, 52, 61, 1);
+    margin: 0.05rem;
+    width: 100%;
+}
+
+.row-works {
+    width: 100%;
+    margin: 0.1rem;
+}
+
+.col-work div {
+    background-color: rgb(179, 179, 0);
+    border-style: dotted;
+    border-radius: 0px 10px 10px 0px;
+    padding: 2px;
+    margin-bottom: 0.6em;
+}
+
+.password-generator {
+    background-image: url("images/password-generator.jpg");
+}
+
+.coding-quiz {
+    background-image: url("images/coding-quiz.jpg");
+}
+
+.workday-scheduler {
+    background-image: url("images/workday-scheduler.jpg");
+}
+
+.weather-dashboard {
+    background-image: url("images/weather-dashboard.jpg");
+}
+
+.note-taker {
+    background-image: url("images/NoteTaker.jpg");
+}
+
+.tech-blog {
+    background-image: url("images/techblog.jpg");
+}
+
+/*#region Mobile media queries */
+@media screen and (max-width: 767px) {
+    .header-main, .header-img-msg {
+        justify-content: center;
+    }
+
+    .header-main nav a {
+        background-color: teal;
+        color: white;
+        text-decoration: none;
+        border: 1px dashed white;
+        padding: 0.5rem 4rem;
+    }
+
+    .contact-me-info {
+        background-color: teal;
+        margin: 0px;
+    }
+
+    .contact-me-info div {
+        border: 1px dashed white;
+    }
+
+    .contact-me-info a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+/*#endregion */
