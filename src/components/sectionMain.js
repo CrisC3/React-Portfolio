@@ -24,7 +24,7 @@ function SectionMain() {
   
   return (
     <div>
-      <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* <SectionNavbar currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {renderPage()}
     </div>
   );
