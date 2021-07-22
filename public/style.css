@@ -85,11 +85,11 @@ main {
 }
 
 .project-01 {
-    background-image: url("../images/Gooberville.png");
+    background-image: url("images/Gooberville.png");
 }
 
 .project-02 {
-    background-image: url("../images/Galleria.jpg");
+    background-image: url("images/Galleria.jpg");
 }
 
 .col-works {
@@ -121,27 +121,27 @@ main {
 }
 
 .password-generator {
-    background-image: url("../images/password-generator.jpg");
+    background-image: url("images/password-generator.jpg");
 }
 
 .coding-quiz {
-    background-image: url("../images/coding-quiz.jpg");
+    background-image: url("images/coding-quiz.jpg");
 }
 
 .workday-scheduler {
-    background-image: url("../images/workday-scheduler.jpg");
+    background-image: url("images/workday-scheduler.jpg");
 }
 
 .weather-dashboard {
-    background-image: url("../images/weather-dashboard.jpg");
+    background-image: url("images/weather-dashboard.jpg");
 }
 
 .note-taker {
-    background-image: url("../images/NoteTaker.jpg");
+    background-image: url("images/NoteTaker.jpg");
 }
 
 .tech-blog {
-    background-image: url("../images/techblog.jpg");
+    background-image: url("images/techblog.jpg");
 }
 
 /*#region Mobile media queries */
