@@ -1,6 +1,6 @@
 import React from "react";
 
-function SectionNavbar() {
+function SectionNavbar({ currentPage, handlePageChange }) {
 
     const styles = {
         color: "black",
@@ -18,10 +18,10 @@ function SectionNavbar() {
     return (
         <ul className="nav nav-tabs align-self-md-end">
             <li className="nav-item">
-                <a href="/" style={styles}>Home</a>
+                <a href="/" onClick={() => handlePageChange("Home")} style={styles}>Home</a> 
             </li>
             <li className="nav-item">
-                <a href="#work" style={styles}>Work</a>
+                <a href="#work" onClick={() => handlePageChange("Work")} style={styles}>Work</a>
             </li>
             <li className="nav-item">
                 <a href="#contact-me" style={styles}>Contact Me</a>
