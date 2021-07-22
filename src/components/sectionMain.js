@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SectionNavbar from "./sectionNavbar";
 import Home from "./pages/home"
 import Work from "./pages/work"
+import ContactMe from "./pages/contact";
 
 function SectionMain() {
   
@@ -14,9 +15,9 @@ function SectionMain() {
     if (currentPage === "Work") {
       return <Work />;
     }
-    // if (currentPage === "ContactMe") {
-    //     return <ContactMe />;
-    // }
+    if (currentPage === "ContactMe") {
+        return <ContactMe />;
+    }
   };
       
   const handlePageChange = (page) => setCurrentPage(page);
