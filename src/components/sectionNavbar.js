@@ -16,7 +16,7 @@ function SectionNavbar() {
       };
 
     return (
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs align-self-end">
             <li className="nav-item">
                 <a href="/" style={styles}>Home</a>
             </li>

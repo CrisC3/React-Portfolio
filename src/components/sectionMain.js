@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function SectionMain() {
+    
+    const [currentPage, setCurrentPage] = useState("Home");
 
     return (
         <h1>Section Main</h1>
